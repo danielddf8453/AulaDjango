@@ -7,4 +7,5 @@ def alunoView(request): #Toda função no View, tem que ter por padrão o "reque
     alunos_list = Aluno.objects.all()
     return render(request, 'main/alunos.html', {'alunos_list' : alunos_list})
 
+#Comentário Teste
 
